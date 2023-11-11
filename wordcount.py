@@ -1,1 +1,1 @@
-getstring = input();
+getstring = input()
