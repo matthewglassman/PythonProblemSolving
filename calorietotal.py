@@ -44,11 +44,11 @@ else:
 
 #Get dessert_choice
 if dessert_choice == 1:
-    dessert_calories = 130
+    dessert_calories = 167
 elif dessert_choice == 2:
-    dessert_calories = 160
+    dessert_calories = 266
 elif dessert_choice== 3:
-    dessert_calories = 118
+    dessert_calories = 75
 else:
     dessert_calories = 0
     
