@@ -56,4 +56,4 @@ else:
 #Compute total calories in the order
 total_calories = burger_calories + sides_calories + drink_calories + dessert_calories
 
-print(total_calories)
+print("Your total Calorie count is " + str(total_calories) + ".")
