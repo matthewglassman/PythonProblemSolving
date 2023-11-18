@@ -42,6 +42,18 @@ elif drink_choice == 3:
 else:
     drink_calories = 0
 
-total_calories = burger_calories + sides_calories + drink_calories
+#Get dessert_choice
+if dessert_choice == 1:
+    dessert_calories = 130
+elif dessert_choice == 2:
+    dessert_calories = 160
+elif dessert_choice== 3:
+    dessert_calories = 118
+else:
+    dessert_calories = 0
+    
+    
+#Compute total calories in the order
+total_calories = burger_calories + sides_calories + drink_calories + dessert_calories
 
 print(total_calories)
