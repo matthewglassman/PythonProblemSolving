@@ -6,4 +6,11 @@
 
 #Taking input from user as the password to check for validity.
 
-password = str(input())
+password = str(input()) 
+ 
+for characters in password:
+    if (len(password)  >= 8) and (len(password) <= 12):
+        print('Good')
+    else:
+        print('Bad')
+   
