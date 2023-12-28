@@ -21,11 +21,6 @@ if (len(password)  >= 8) and (len(password) <= 12):
             count_lower = count_lower + 1
         elif characters >= '0' and characters <= '9':
             count_digit = count_digit + 1
-else:
-    print("Password is not long enough")
-  
-# print(count_upper)
-# print(count_lower)   
 
 if count_lower >= 3 and count_upper >= 2 and count_digit >= 1:
     print('Valid')
